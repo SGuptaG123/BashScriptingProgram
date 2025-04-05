@@ -13,9 +13,9 @@ crontab -e
 crontab -l
 
 #! /bin/bash
-# print the current date time
+'# print the current date time
 date
-# print the disk free statistics
+'# print the disk free statistics
 df -h
 
 chmod u+x diskusage.sh
